@@ -1,6 +1,4 @@
 @Library('jenkins-library@testbranch') _
-my-shared-library@master
-
 pipeline
 {
 	agent any 
