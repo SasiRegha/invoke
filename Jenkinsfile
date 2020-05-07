@@ -1,4 +1,4 @@
-@Library('jenkins-library') _
+@Library('jenkins-library@testbranch') _
 
 pipeline
 {
@@ -16,6 +16,7 @@ pipeline
 		{
 			steps
 			{
+				echo "hello from test branch"
 				fromLibarary()
 			}
 		}
