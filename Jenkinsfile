@@ -1,4 +1,5 @@
 @Library('jenkins-library@testbranch') _
+my-shared-library@master
 
 pipeline
 {
@@ -16,8 +17,8 @@ pipeline
 		{
 			steps
 			{
-				echo "hello from test branch"
 				fromLibarary()
+				print()
 			}
 		}
 	
