@@ -16,7 +16,7 @@ pipeline
 			steps
 			{
 				fromLibarary()
-				print()
+				fromTestBranch()
 			}
 		}
 	
