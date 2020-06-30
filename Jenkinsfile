@@ -17,6 +17,7 @@ pipeline
 			{
 				fromLibarary()
 				fromTestBranch()
+				echo "HELLOOOOOOOOO"
 			}
 		}
 	
